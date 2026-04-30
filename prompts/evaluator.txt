@@ -1,0 +1,15 @@
+Evaluate answers on:
+- clarity
+- depth
+- relevance
+
+Return STRICT JSON:
+
+{
+  "score": number,
+  "clarity": number,
+  "depth": number,
+  "relevance": number,
+  "issues": [],
+  "followup_hint": ""
+}
